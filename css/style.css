@@ -1,0 +1,190 @@
+/* HEADER */
+
+body {
+    font-family: Helvetica;
+  }
+  
+  header {
+    
+    height: 150px;
+  }
+  
+  nav {
+      
+    width: 960px;
+    margin: 0px auto;
+  }
+  header nav {
+    overflow: hidden;
+    
+    /* text-transform: uppercase; */
+  }
+  header nav img {
+      margin-right: 8px;
+      
+  }
+ header nav h1 {
+    
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    padding-top: 40px;
+  }
+  header nav h2 {
+    font-size: 60%; 
+  }
+  header img {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+  }
+  header ul {
+      position: absolute;
+   
+      float: right;
+      top: 50px;
+      left: 850px;
+ 
+  }
+  header ul li {
+   
+    display: inline-block;
+  
+  }
+  header ul li img {
+    margin-top: 1px;
+    margin-right: 0.1px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #888;
+  }
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+  .title-chocolate {
+    margin: 5%;
+  }
+ .title-chocolate h1 {
+     font-size: 250%;
+     font-family: 'Staatliches', cursive;
+     
+ } 
+ .title-chocolate h2 {
+     font-size: 90%;
+     color: #888;
+     
+ }
+ .title-chocolate img {
+     float: right;
+ }
+ .title-chocolate p {
+     float: right;
+     font-size: 80%;
+     
+ }
+  /* main */
+  main {
+    width: 960px;
+    margin: 30px auto;
+  }
+  
+
+  .content-area  {
+margin-top: 20px;
+  }
+  
+  .content-area p {
+    line-height: 200%;
+    margin-bottom: 20px;
+  }
+
+
+  section div {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .list {
+      position: relative;
+  }
+  ul{
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;
+    position: absolute;
+    top: 50px;
+    line-height: 200%;
+}
+ul li {
+    color: rgb(104, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+  section div p {
+    height: 320px;
+    overflow: auto;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+  }
+  .profile {
+      height: 180px;
+  }
+  .profile img {
+    float: left;
+    margin-top: 50px;
+      } 
+    
+  .profile h1 {
+
+margin-top: 80px;
+
+font-size: 20px;
+  }
+  .profile h2 {
+    
+      font-size: 15px;
+     
+      
+    }
+
+  .profile button {
+    float: right;
+      }
+  button {
+    border: none;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 350ms;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: rgb(148, 79, 14);
+  }
+  
+  
+  /* FOOTER */
+  footer {
+      text-align: center;
+      padding-top: 90px;
+    height: 150px;
+      background: rgb(68, 68, 68);
+  }
+ 
